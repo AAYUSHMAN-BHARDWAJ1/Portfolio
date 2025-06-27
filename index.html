@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aayushman Portfolio</title>
+  <!-- font link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+
+  <!-- css link -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <!-- paralax effect -->
+  <div class="parallax-video-wrapper">
+    <video autoplay muted loop playsinline class="parallax-video">
+      <source src="/image/4496268-hd_1920_1080_25fps.mp4" type="video/mp4" />
+    </video>
+    <div class="parallax-overlay"></div>
+  </div>
+
+  <!-- navigation -->
+  <nav>
+    <div class="logo">Aayushman<span>-Portfolio</span></div>
+    <div class="nav-links">
+      <a href="#home">home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#Certificates">Certificates</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- hero section -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1>Hi,I'm <span>Aayushman Bhardwaj</span><br>Web developer</h1>
+      <p>Hey there! I'm a student developer who crafts beautiful frontends with HTML, CSS, JavaScript, React & Tailwind
+        — and dives into the logic layer with C/C++, Java & SQL. I blend design with code to build smooth, responsive
+        web experiences that not only work — but wow.
+      </p>
+
+      <a href="#contact" class="cta-button">Get in touch</a>
+
+    </div>
+
+    <div class="profile-container">
+      <div class="profile-border"></div>
+      <div class="tech-icons">
+        <i class="tech-icon" style="top: 0;left: 50%; transform: translateX(-50%);">⚛️</i>
+        <i class="tech-icon" style="top: 50% ;right: 0; transform: translateY(-50%);">💻</i>
+        <i class="tech-icon" style="bottom: 0;left: 50%; transform: translateX(-50%);">📊</i>
+        <i class="tech-icon" style="top: 50%;left: 0; transform: translateY(-50%);">🎨</i>
+
+      </div>
+      <img src="/image/prof.jpg" alt="Profile picture" width="300px" class="profile-pic">
+
+    </div>
+  </section>
+
+  <!-- About section -->
+  <section class="about" id="about">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-content">
+      <div class="about-text">
+        <p>
+          Hi! I'm a student and aspiring web developer who loves turning ideas into interactive websites. I started my
+          journey by learning the basics of HTML, CSS, and JavaScript — and quickly discovered a passion for designing
+          clean, responsive user interfaces. I'm now confident working with frontend tools like React and Tailwind CSS
+          to build beautiful and functional web pages.
+        </p>
+        <br>
+        <p>
+          As I continue learning, I'm also exploring how the backend works. I've been working with programming languages
+          like C/C++ and Java to strengthen my logic-building skills, and I'm learning SQL to understand how data is
+          stored and accessed. This full-stack approach helps me better understand how everything connects — from user
+          clicks to database queries.
+        </p>
+
+        <p>
+          Recently, I've started exploring Node.js and MongoDB to dive deeper into backend development and create
+          dynamic, database-driven applications. I'm also interested in using AI tools to improve my workflow and add
+          smart features to projects. As a fresher, I'm always curious, eager to learn, and excited about every
+          opportunity to grow and build real-world projects.
+        </p>
+        <br>
+
+        <p>
+          I’m always exploring new technologies, improving my design thinking, and pushing the boundaries of what I can
+          create. Whether it’s a small landing page or a full-stack web app, I strive to write clean code, craft smooth
+          interactions, and deliver projects that are both functional and visually engaging. Let's build something
+          awesome together!
+        </p>
+      </div>
+
+      <div class="skills">
+        <div class="skill-item">
+          <div class="skill-name">
+            <span>Javascript</span>
+            <span>70%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress" data-width="70%"></div>
+          </div>
+
+        </div>
+        <div class="skill-item">
+          <div class="skill-name">
+            <span>HTML</span>
+            <span>95%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress" data-width="95%"></div>
+          </div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-name">
+            <span>CSS</span>
+            <span>95%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress"data-width="95%"></div>
+          </div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-name">
+            <span>React</span>
+            <span>65%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress"data-width="65%"></div>
+          </div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-name">
+            <span>UI/UX</span>
+            <span>85%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress" data-width="85%"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Project section -->
+  <section class="projects" id="projects">
+
+    <h2 class="section-title">My projects</h2>
+    <div class="project-grid">
+      <!-- 1st card  -->
+      <div class="project-card">
+        <img src="/image/programming-background-with-person-working-with-codes-computer_23-2150010125.jpg"
+          alt="Project 1" height="200px" class="project-img">
+        <div class="project-info">
+          <h3 class="project-title">Cloning Project</h3>
+          <p class="project-description">Made modern cloning projects like E-Commerce websites,Streaming websites
+            Etc...Using HTML, CSS, Javascript </p>
+          <div class="project-tech">
+            <span class="tech-tag">HTML</span>
+            <span class="tech-tag">CSS</span>
+            <span class="tech-tag">Javascript</span>
+
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link"><i class="fas
+              fa-external-link-alt"></i>Live Demo</a>
+            <a href="#" class="project-link"><i class="fab
+                fa-github"></i>Code</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2nd card -->
+      <div class="project-card">
+        <img src="/image/3.webp" alt="Project 2" height="200px" class="project-img">
+        <div class="project-info">
+          <h3 class="project-title">Portfolio</h3>
+          <p class="project-description">Modern virtual reality Portfolio project design Using Figma,HTML, CSS,
+            Javascript </p>
+          <div class="project-tech">
+            <span class="tech-tag">Figma</span>
+            <span class="tech-tag">HTML</span>
+            <span class="tech-tag">CSS</span>
+            <span class="tech-tag">Javascript</span>
+
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link"><i class="fas
+              fa-external-link-alt"></i>Live Demo</a>
+            <a href="#" class="project-link"><i class="fab
+                fa-github"></i>Code</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3rd card -->
+      <div class="project-card">
+        <img src="/image/pexels-luis-gomes-166706-546819.jpg" alt="Project 3" height="200px" class="project-img">
+        <div class="project-info">
+          <h3 class="project-title">Company Websites Design</h3>
+          <p class="project-description">Company Websit redesigning Project Using React, HTML,CSS,Javascript</p>
+          <div class="project-tech">
+            <span class="tech-tag">Figma</span>
+            <span class="tech-tag">React</span>
+            <span class="tech-tag">HTML</span>
+            <span class="tech-tag">CSS</span>
+            <span class="tech-tag">Javascript</span>
+
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link"><i class="fas
+              fa-external-link-alt"></i>Live Demo</a>
+            <a href="#" class="project-link"><i class="fab
+                fa-github"></i>Code</a>
+          </div>
+        </div>
+      </div>
+
+      <!--4th card -->
+
+      <div class="project-card">
+        <img src="/image/pexels-goumbik-577210.jpg" alt="Project 4" height="200px" class="project-img">
+        <div class="project-info">
+          <h3 class="project-title">Admin Dashboard</h3>
+          <p class="project-description">A modern admin dashboard with real-time analytics and custamizable widgets
+            built with React and D3.js and firebase</p>
+          <div class="project-tech">
+            <span class="tech-tag">D3.js</span>
+            <span class="tech-tag">React</span>
+            <span class="tech-tag">Firebase</span>
+
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link"><i class="fas
+              fa-external-link-alt"></i>Live Demo</a>
+            <a href="#" class="project-link"><i class="fab
+                fa-github"></i>Code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- certificate section -->
+
+  <section class="certificates" id="Certificates">
+    <h2 class="section-title">Certificates</h2>
+    <div class="project-grid">
+
+      <!-- 1st certificate card -->
+      <div class="project-card">
+        <img src="/image/Ai.jpg" alt="AI Certificate" class="project-img">
+        <div class="project-info">
+          <h3 class="project-title">Artificial Intelligence Certificates</h3>
+          <p class="project-description">Completed an in-depth course on Artificial Intelligence at Coursera. I have
+            some certificates from IBM and Google.</p>
+
+          <div class="project-tech">
+            <span class="tech-tag">Generative AI</span>
+            <span class="tech-tag">Application of AI</span>
+          </div>
+
+          <div class="project-links">
+            <a href="https://drive.google.com/drive/folders/1FTWJug2gFZmsacQx6CwiKdLZxXNLspF2?usp=drive_link"
+              class="project-link" target="_blank">
+              <i class="fas fa-eye"></i> View all Certificate
+            </a>
+            <a href="https://www.linkedin.com/in/aayushman-bhardwaj-a86092293/details/certifications/"
+              class="project-link" target="_blank">
+              <i class="fab fa-linkedin"></i> License
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2st certificate card -->
+      <div class="project-card">
+        <img src="/image/OS.jpg" alt="Operating System Certificate" class="project-img">
+        <div class="project-info">
+          <h3 class="project-title">Operating System Certificates</h3>
+          <p class="project-description">Completed an in-depth course on Operating System at Coursera. I have some
+            certificates from Microsoft etc.</p>
+
+          <div class="project-tech">
+            <span class="tech-tag">Operating system core</span>
+            <span class="tech-tag">Bash script </span>
+          </div>
+
+          <div class="project-links">
+            <a href="https://drive.google.com/drive/folders/1QynsHw-7B5Xe6K47breQ1iMhd048vMjl?usp=drive_link"
+              class="project-link" target="_blank">
+              <i class="fas fa-eye"></i> View all Certificate
+            </a>
+            <a href="https://www.linkedin.com/in/aayushman-bhardwaj-a86092293/details/certifications/"
+              class="project-link" target="_blank">
+              <i class="fab fa-linkedin"></i> License
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3rd certificate -->
+      <div class="project-card">
+        <img src="/image/dt.jpg" alt="Design Thinking Certificate" class="project-img">
+        <div class="project-info">
+          <h3 class="project-title">Design Thinking Certificates</h3>
+          <p class="project-description">Completed an in-depth course Design Thinking at Coursera. I have some
+            certificates from University of Virginia</p>
+
+          <div class="project-tech">
+            <span class="tech-tag">Design Thinking Core</span>
+            <span class="tech-tag">Design thinking Grand Course </span>
+          </div>
+
+          <div class="project-links">
+            <a href="https://drive.google.com/drive/folders/1iOuTCzFM9tTurJVsDvvQcDpy4FkmZlU9?usp=drive_link"
+              class="project-link" target="_blank">
+              <i class="fas fa-eye"></i> View all Certificate
+            </a>
+            <a href="https://www.linkedin.com/in/aayushman-bhardwaj-a86092293/details/certifications/"
+              class="project-link" target="_blank">
+              <i class="fab fa-linkedin"></i> License
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- 4rd certificate -->
+      <div class="project-card">
+        <img src="/image/algo.jpg" alt="Algorithm Certificate" class="project-img">
+        <div class="project-info">
+          <h3 class="project-title">Algorithm Certificates</h3>
+          <p class="project-description">Completed an in-depth course of Algorithm at Coursera. I have some certificates
+            from University of Colorado and Boulder</p>
+
+          <div class="project-tech">
+            <span class="tech-tag">Python Code</span>
+            <span class="tech-tag">Algorithm core part </span>
+          </div>
+
+          <div class="project-links">
+            <a href="https://drive.google.com/drive/folders/1dKJka8OVX_P1LLCpLH3GyiJJj-HN2N6s?usp=drive_link"
+              class="project-link" target="_blank">
+              <i class="fas fa-eye"></i> View all Certificate
+            </a>
+            <a href="https://www.linkedin.com/in/aayushman-bhardwaj-a86092293/details/certifications/"
+              class="project-link" target="_blank">
+              <i class="fab fa-linkedin"></i> License
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- contact section -->
+
+  <section class="contact" id="contact">
+    <div class="contact-video-wrapper">
+      <video class="contact-video" autoplay muted loop>
+        <source src="/image/6804109-uhd_4096_2160_25fps.mp4" type="video/mp4">
+      </video>
+      <div class="contact-overlay"></div>
+    </div>
+    <h2 class="section-title">Get In Touch</h2>
+
+    <div class="contact-card">
+     <form class="contact-form" action="https://formspree.io/f/xvgrdkpl" method="POST">
+  <div class="form-group">
+    <label for="name" class="form-label">Name</label>
+    <input type="text" id="name" name="name" class="form-input" required>
+  </div>
+  <div class="form-group">
+    <label for="email" class="form-label">Email</label>
+    <input type="email" id="email" name="email" class="form-input" required>
+  </div>
+  <div class="form-group">
+    <label for="subject" class="form-label">Subject</label>
+    <input type="text" id="subject" name="subject" class="form-input" required>
+  </div>
+  <div class="form-group">
+    <label for="message" class="form-label">Message</label>
+    <textarea id="message" name="message" class="form-textarea" required></textarea>
+  </div>
+  <button type="submit" class="submit-btn">Send Message</button>
+
+</form>
+
+<!-- After form -->
+<p id="form-status" style="text-align:center; color: lightgreen; margin-top: 1rem;"></p>
+
+
+    </div>
+  </section>
+
+
+  <!-- footer section -->
+  <footer>
+    <div class="social-links">
+      <a href="#" class="social-link"></a><i class="fab fa-github"></i></a>
+      <a href="#" class="social-link"></a><i class="fab fa-linkedin"></i></a>
+      <a href="#" class="social-link"></a><i class="fab fa-twitter"></i></a>
+      <a href="#" class="social-link"></a><i class="fab fa-instagram"></i></a>
+
+    </div>
+
+    <p class="Copyright">&copy;2025 Aayushman Bhardwaj. All rights reserved. </p>
+
+  </footer>
+
+  <!-- link of javascript -->
+  <script src="script.js"></script>
+
+</body>
+
+</html>
